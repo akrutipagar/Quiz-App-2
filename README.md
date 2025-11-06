@@ -1,15 +1,15 @@
 # Quiz-Master-App
 
-Description 
+Description :
 This project implements a full-stack quiz management system that supports user and 
 admin roles, enabling quiz creation, participation, and performance tracking. The 
 system features scheduled reports, secure authentication, and content management. 
-Technologies Used 
+Technologies Used :- 
 • Backend: Python (Flask), SQLAlchemy, Flask-Mail, Flask-Login, Celery 
 • Frontend: Vue.js (with Axios) 
 • Database: SQLite 
 • Task Scheduling: Celery + Redis 
-Purpose Behind Technologies 
+Purpose Behind Technologies  :-
 • Flask: Lightweight and modular backend framework for API development. 
 • Flask-Login: Handles session-based user authentication and role-based 
 access. 
@@ -17,7 +17,7 @@ access.
 • SQLAlchemy: ORM for managing relational database interactions efficiently. 
 • Celery + Redis: Handles daily/recurring background tasks like email reminders. 
 • Vue.js: Reactive frontend framework for dynamic dashboards and form-based 
-CRUD operations. 
+CRUD operations
 • SQLite: Lightweight local DB ideal for fast prototyping and academic 
 applications. 
 • Flask (app.py): Core backend API logic, authentication, and routing. 
